@@ -1,0 +1,12 @@
+.Slide {
+  padding: 30px;
+  border: $border;
+  border-radius: $border-radius;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 1366px) {
+  .Slide {
+    padding: 20px;
+  }
+}

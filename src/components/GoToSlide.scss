@@ -1,0 +1,23 @@
+.GoToSlide {
+  margin: 0 15px;
+  padding: 15px;
+  border-radius: 50%;
+  transition: background $transition-time;
+  background: rgba(0, 0, 0, 0.1);
+
+  &--active {
+    background: rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media (max-width: 768px) {
+  .GoToSlide {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .GoToSlide {
+    margin: 0 7px;
+  }
+}
